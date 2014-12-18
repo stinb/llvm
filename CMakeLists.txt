@@ -273,6 +273,15 @@ set(TARGET_TRIPLE "${LLVM_DEFAULT_TARGET_TRIPLE}")
 
 include(HandleLLVMOptions)
 
+# Hack: Skip generating LLVMBuild files. Copy pre-generated ones from the
+# source directory instead. Revisit if we ever require python on Windows.
+set(LLVMCONFIGLIBRARYDEPENDENCIESINC_PREGEN
+  "${LLVM_SOURCE_DIR}/build/LibraryDependencies.inc")
+set(LLVMBUILDCMAKEFRAG_PREGEN
+  "${LLVM_SOURCE_DIR}/build/LLVMBuild.cmake")
+if(NOT EXISTS "${LLVMCONFIGLIBRARYDEPENDENCIESINC_PREGEN}" OR
+   NOT EXISTS "${LLVMBUILDCMAKEFRAG_PREGEN}")
+
 # Verify that we can find a Python 2 interpreter.  Python 3 is unsupported.
 set(Python_ADDITIONAL_VERSIONS 2.7 2.6 2.5)
 include(FindPythonInterp)
@@ -333,6 +342,17 @@ endif()
 if( NOT "${LLVMBUILDRESULT}" STREQUAL "0" )
   message(FATAL_ERROR
     "Unexpected failure executing llvm-build: ${LLVMBUILDERRORS}")
+endif()
+
+else()
+  set(LLVMCONFIGLIBRARYDEPENDENCIESINC
+    "${LLVM_BINARY_DIR}/tools/llvm-config/LibraryDependencies.inc")
+  configure_file(${LLVMCONFIGLIBRARYDEPENDENCIESINC_PREGEN}
+    ${LLVMCONFIGLIBRARYDEPENDENCIESINC} COPYONLY)
+  set(LLVMBUILDCMAKEFRAG
+    "${LLVM_BINARY_DIR}/LLVMBuild.cmake")
+  configure_file(${LLVMBUILDCMAKEFRAG_PREGEN}
+    ${LLVMBUILDCMAKEFRAG} COPYONLY)
 endif()
 
 # Include the generated CMake fragment. This will define properties from the
