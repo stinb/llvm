@@ -25,284 +25,284 @@
 #
 # FIXME: File a CMake RFE to get a properly supported version of this
 # feature.
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/bindings/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/docs/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/examples/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Analysis/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Analysis/IPA/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/AsmParser/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Bitcode/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Bitcode/Reader/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Bitcode/Writer/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/CodeGen/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/CodeGen/AsmPrinter/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/CodeGen/SelectionDAG/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/DebugInfo/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/ExecutionEngine/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/ExecutionEngine/Interpreter/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/ExecutionEngine/JIT/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/ExecutionEngine/MCJIT/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/ExecutionEngine/RuntimeDyld/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/ExecutionEngine/IntelJITEvents/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/ExecutionEngine/OProfileJIT/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Linker/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/IR/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/IRReader/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/LTO/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/MC/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/MC/MCDisassembler/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/MC/MCParser/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Object/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Option/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Support/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/TableGen/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/AArch64/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/AArch64/AsmParser/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/AArch64/Disassembler/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/AArch64/InstPrinter/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/AArch64/MCTargetDesc/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/AArch64/TargetInfo/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/AArch64/Utils/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/ARM/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/ARM/AsmParser/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/ARM/Disassembler/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/ARM/InstPrinter/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/ARM/MCTargetDesc/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/ARM/TargetInfo/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/CppBackend/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/CppBackend/TargetInfo/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/Hexagon/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/Hexagon/InstPrinter/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/Hexagon/MCTargetDesc/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/Hexagon/TargetInfo/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/MSP430/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/MSP430/InstPrinter/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/MSP430/MCTargetDesc/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/MSP430/TargetInfo/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/NVPTX/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/NVPTX/InstPrinter/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/NVPTX/MCTargetDesc/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/NVPTX/TargetInfo/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/Mips/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/Mips/AsmParser/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/Mips/Disassembler/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/Mips/InstPrinter/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/Mips/MCTargetDesc/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/Mips/TargetInfo/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/PowerPC/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/PowerPC/AsmParser/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/PowerPC/InstPrinter/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/PowerPC/MCTargetDesc/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/PowerPC/TargetInfo/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/R600/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/R600/InstPrinter/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/R600/MCTargetDesc/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/R600/TargetInfo/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/Sparc/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/Sparc/MCTargetDesc/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/Sparc/TargetInfo/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/SystemZ/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/SystemZ/AsmParser/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/SystemZ/Disassembler/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/SystemZ/InstPrinter/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/SystemZ/MCTargetDesc/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/SystemZ/TargetInfo/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/X86/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/X86/AsmParser/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/X86/Disassembler/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/X86/InstPrinter/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/X86/MCTargetDesc/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/X86/TargetInfo/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/X86/Utils/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/XCore/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/XCore/Disassembler/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/XCore/InstPrinter/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/XCore/MCTargetDesc/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/XCore/TargetInfo/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Transforms/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Transforms/IPO/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Transforms/InstCombine/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Transforms/Instrumentation/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Transforms/Scalar/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Transforms/Utils/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Transforms/Vectorize/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Transforms/ObjCARC/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/projects/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/bugpoint/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llc/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/lli/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/lli/ChildTarget/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-ar/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-as/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-bcanalyzer/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-cov/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-diff/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-dis/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-dwarfdump/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-extract/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-jitlistener/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-link/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-lto/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-mc/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-nm/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-objdump/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-rtdyld/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-size/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/macho-dump/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/opt/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-mcmarkup/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/utils/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/utils/TableGen/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/utils/unittest/LLVMBuild.txt"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/utils/llvm-build/llvmbuild/configutil.py"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/utils/llvm-build/llvm-build"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/utils/llvm-build/llvmbuild/__init__.py"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/utils/llvm-build/llvmbuild/main.py"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/utils/llvm-build/llvmbuild/componentinfo.py"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
-configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/utils/llvm-build/llvmbuild/util.py"
-               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/bindings/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/docs/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/examples/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Analysis/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Analysis/IPA/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/AsmParser/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Bitcode/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Bitcode/Reader/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Bitcode/Writer/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/CodeGen/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/CodeGen/AsmPrinter/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/CodeGen/SelectionDAG/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/DebugInfo/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/ExecutionEngine/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/ExecutionEngine/Interpreter/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/ExecutionEngine/JIT/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/ExecutionEngine/MCJIT/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/ExecutionEngine/RuntimeDyld/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/ExecutionEngine/IntelJITEvents/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/ExecutionEngine/OProfileJIT/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Linker/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/IR/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/IRReader/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/LTO/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/MC/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/MC/MCDisassembler/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/MC/MCParser/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Object/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Option/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Support/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/TableGen/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/AArch64/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/AArch64/AsmParser/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/AArch64/Disassembler/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/AArch64/InstPrinter/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/AArch64/MCTargetDesc/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/AArch64/TargetInfo/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/AArch64/Utils/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/ARM/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/ARM/AsmParser/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/ARM/Disassembler/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/ARM/InstPrinter/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/ARM/MCTargetDesc/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/ARM/TargetInfo/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/CppBackend/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/CppBackend/TargetInfo/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/Hexagon/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/Hexagon/InstPrinter/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/Hexagon/MCTargetDesc/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/Hexagon/TargetInfo/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/MSP430/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/MSP430/InstPrinter/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/MSP430/MCTargetDesc/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/MSP430/TargetInfo/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/NVPTX/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/NVPTX/InstPrinter/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/NVPTX/MCTargetDesc/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/NVPTX/TargetInfo/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/Mips/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/Mips/AsmParser/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/Mips/Disassembler/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/Mips/InstPrinter/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/Mips/MCTargetDesc/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/Mips/TargetInfo/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/PowerPC/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/PowerPC/AsmParser/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/PowerPC/InstPrinter/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/PowerPC/MCTargetDesc/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/PowerPC/TargetInfo/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/R600/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/R600/InstPrinter/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/R600/MCTargetDesc/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/R600/TargetInfo/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/Sparc/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/Sparc/MCTargetDesc/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/Sparc/TargetInfo/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/SystemZ/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/SystemZ/AsmParser/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/SystemZ/Disassembler/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/SystemZ/InstPrinter/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/SystemZ/MCTargetDesc/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/SystemZ/TargetInfo/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/X86/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/X86/AsmParser/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/X86/Disassembler/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/X86/InstPrinter/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/X86/MCTargetDesc/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/X86/TargetInfo/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/X86/Utils/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/XCore/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/XCore/Disassembler/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/XCore/InstPrinter/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/XCore/MCTargetDesc/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Target/XCore/TargetInfo/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Transforms/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Transforms/IPO/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Transforms/InstCombine/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Transforms/Instrumentation/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Transforms/Scalar/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Transforms/Utils/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Transforms/Vectorize/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/lib/Transforms/ObjCARC/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/projects/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/bugpoint/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llc/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/lli/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/lli/ChildTarget/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-ar/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-as/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-bcanalyzer/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-cov/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-diff/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-dis/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-dwarfdump/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-extract/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-jitlistener/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-link/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-lto/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-mc/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-nm/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-objdump/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-rtdyld/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-size/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/macho-dump/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/opt/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/tools/llvm-mcmarkup/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/utils/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/utils/TableGen/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/utils/unittest/LLVMBuild.txt"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/utils/llvm-build/llvmbuild/configutil.py"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/utils/llvm-build/llvm-build"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/utils/llvm-build/llvmbuild/__init__.py"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/utils/llvm-build/llvmbuild/main.py"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/utils/llvm-build/llvmbuild/componentinfo.py"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
+#configure_file("/Users/jason/Sources/sti/src/lib/llvm/llvm/utils/llvm-build/llvmbuild/util.py"
+#               ${CMAKE_CURRENT_BINARY_DIR}/DummyConfigureOutput)
 
 # Explicit library dependency information.
 #
