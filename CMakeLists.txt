@@ -924,6 +924,8 @@ add_subdirectory(projects)
 
 if( LLVM_INCLUDE_TOOLS )
   add_subdirectory(tools)
+else()
+  add_subdirectory(tools/clang)
 endif()
 
 if( LLVM_INCLUDE_RUNTIMES )
